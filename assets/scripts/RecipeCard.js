@@ -132,7 +132,6 @@ class RecipeCard extends HTMLElement {
 		//           literals (template strings) and element.innerHTML for this.
 		// 			 Do NOT include the <article> tags within the innerHTML of the element you create.
 		//           Remember to replace all the placeholders in the template with the data passed in.
-		//           i.e. imgSrc, titleLnk, e
 
 		const art = this.shadowEl.querySelector('article');
 		art.innerHTML = 
